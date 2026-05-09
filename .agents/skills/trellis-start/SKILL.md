@@ -16,8 +16,6 @@ Identity, git status, current task, active tasks, journal location.
 python3 ./.trellis/scripts/get_context.py
 ```
 
-If this output includes a line beginning `Trellis update available:`, copy the full line verbatim when summarizing session context. Do not shorten operational command hints.
-
 ## Step 2: Workflow overview
 Phase Index + skill routing table + DO-NOT-skip rules.
 
@@ -43,7 +41,7 @@ From Step 1 you know the current task. Check the task directory:
 
 - **Active task + `prd.md` exists** → Phase 2 step 2.1. Load the step detail:
   ```bash
-  python3 ./.trellis/scripts/get_context.py --mode phase --step 2.1 --platform codex
+  python3 ./.trellis/scripts/get_context.py --mode phase --step 2.1
   ```
 - **Active task + no `prd.md`** → Phase 1.1. Load the `trellis-brainstorm` skill.
 - **No active task** → when the user describes multi-step work, load the `trellis-brainstorm` skill to clarify requirements, then create a task via `task.py create`. For simple one-off questions or trivial edits, skip this and just answer directly — no task needed.
