@@ -71,3 +71,34 @@ Updated the Codex trellis-start source template and local installed skill so ses
 ### Next Steps
 
 - None - task complete
+
+
+## Session 3: Complete joiner onboarding
+
+**Date**: 2026-05-09
+**Task**: Complete joiner onboarding
+**Branch**: `main`
+
+### Summary
+
+Completed the jdjingdian joiner onboarding task in the current Codex session: reviewed Trellis workflow, task mechanics, spec surfaces, assigned tasks, and archived the onboarding task. No code changes were made for this onboarding task.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+(No commits - planning session)
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
