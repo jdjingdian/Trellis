@@ -38,3 +38,36 @@ Implemented and verified session-start update checks for Trellis context loading
 ### Next Steps
 
 - None - task complete
+
+
+## Session 2: Preserve trellis-start update hint
+
+**Date**: 2026-05-09
+**Task**: Preserve trellis-start update hint
+**Branch**: `main`
+
+### Summary
+
+Updated the Codex trellis-start source template and local installed skill so session summaries preserve the full Trellis update hint line, including operational install command guidance. Verified with CLI tests, lint, and typecheck.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `12c5c6c` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
